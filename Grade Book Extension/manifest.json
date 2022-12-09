@@ -1,0 +1,18 @@
+{
+    "name": "Grade Book",
+    "version": "1.0.0",
+    "description": "Google Sheet template for a grade book",
+    "manifest_version": 3,
+    "author": "Chase Waterman",
+    "permissions":["activeTab", "tabs"],
+    "icons": {
+        "16": "GradeBook16.png",
+        "48": "GradeBook48.png",
+       "128": "GradeBook128.png"
+     },
+    "action":{
+        "default_icon": "GradeBook128.png",
+        "default_popup": "index.html",
+        "default_title": "Grade Book Template"
+    }
+}
